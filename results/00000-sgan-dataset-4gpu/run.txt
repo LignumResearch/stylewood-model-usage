@@ -1,1 +1,0 @@
-{'host_name': 'localhost', 'start_time': '2021-05-04 16:40:08.688883', 'task_name': 'dercilio-00000-sgan-dataset-4gpu'}
