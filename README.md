@@ -1,8 +1,6 @@
 # StyleWood: Training and using GANs to generate microscopic cross-section images of hardwood species
 
-<img src="https://cdn.rawgit.com/LignumResearch/stylewood-model-usage/main/images/transition.gif" alt="Transition using our generator."/, width="512">
-
-<img src="https://cdn.rawgit.com/LignumResearch/stylewood-model-usage/main/images/mosaic.png" alt="Mosaic of randomly generated images using our model." width="512"/>
+<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/mosaic.png?raw=true" alt="Mosaic of randomly generated images using our model." width="512"/>
 
 This repository was created to provide the oringal implementation for the paper entitled "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**" by Lopes D. J. V., Monti G. F., Burgreen, G. W., Moulin J. C., Bobadilha G. S., Entsminger E. D., and Oliveira R. F.
 
@@ -21,6 +19,8 @@ In this repository, you will find the code used for training and using the model
 - **results/**: Contains model snapshot selected to exibit.
 - **training/**: StyleGan related. Adjusted to use cross-sectional images of hardwoods species.
 - **videos/**: Videos produced for this repository.
+
+<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator."/, width="512">
 
 ## Credits and Rerences
 For the paper, we trained StyleGAN to generate synthetic microscopic cross sections of hardwood species. 
