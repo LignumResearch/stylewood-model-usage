@@ -20,7 +20,7 @@ In this repository, you will find the code used for training and using the model
 - **training/**: StyleGan related. Adjusted to use cross-sectional images of hardwoods species.
 - **videos/**: Videos produced for this repository.
 
-<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator."/, width="512">
+<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
 ## Credits and Rerences
 For the paper, we trained StyleGAN to generate synthetic microscopic cross sections of hardwood species. 
