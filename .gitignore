@@ -1,0 +1,9 @@
+__pycache__
+cache
+results/00000-sgan-dataset-4gpu/src/karras2019stylegan-ffhq-1024x1024.pkl
+results/00000-sgan-dataset-4gpu/src/inception_v3_features(1).pkl
+results/00000-sgan-dataset-4gpu/src/images
+results/00000-sgan-dataset-4gpu/src/out
+results/00000-sgan-dataset-4gpu/src/metrics/karras2019stylegan-ffhq-1024x1024.pkl
+metrics/karras2019stylegan-ffhq-1024x1024.pkl
+*.pkl
