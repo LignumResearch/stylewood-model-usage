@@ -1,20 +1,20 @@
 # StyleWood: Training and using GANs to generate microscopic cross-section images of hardwood species
 
-<img src="images/transition.gif" alt="Transition using our generator."/>
+<img src="https://cdn.rawgit.com/LignumResearch/stylewood-model-usage/main/images/transition.gif" alt="Transition using our generator."/, width="512">
 
-<img src="images/mosaic.png" alt="Mosaic of randomly generated images using our model." width="512"/>
+<img src="https://cdn.rawgit.com/LignumResearch/stylewood-model-usage/main/images/mosaic.png" alt="Mosaic of randomly generated images using our model." width="512"/>
 
 This repository was created to provide the oringal implementation for the paper entitled "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**" by Lopes D. J. V., Monti G. F., Burgreen, G. W., Moulin J. C., Bobadilha G. S., Entsminger E. D., and Oliveira R. F.
 
-The full paper can be found at: [link text](https://)
+The full paper can be found at: [Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks](https://)
 
-The model and code can found at: https://github.com/LignumResearch/stylewood-model-usage.
+The model and code can found at the repository: [StyleWood: Training and using GANs to generate microscopic cross-section images of hardwood species](https://github.com/LignumResearch/stylewood-model-usage)
 
-Since we are limited by Github free file storage, the complete repository with the data set, trained model and related metrics can be downloaded at:  
+Since we are limited by Github free file storage, the complete repository with the data set, trained model and related metrics can be downloaded at:  [Original Files](https://)
 
 In this repository, you will find the code used for training and using the model. Here is a basic summary of the directories found in this repository:
 
-- **collab/**: Contains notebook, generator and code for web application. (See and use the notebook on Collab)[https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing].
+- **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing) .
 - **dnnlib/**: StyleGan related.
 - **images/**: Images produced for this repository (used in read me).
 - **metrics/**: 
