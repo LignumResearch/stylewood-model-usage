@@ -45,7 +45,7 @@ __[step 3.] Training__:
 * Within the results folder, a new directory will be created with training information.
 * Training is expected to last days (maybe weeks) depending on computational power. 
 
-__[step 4.] Training__:
+__[step 4.] Image generation__:
 
 1a. You can use [random_figure.py](./random_figure.py) to generate 100 images using the author's snapshot. If you want to generate a different number of images, change line 33 in the same file. 
 
