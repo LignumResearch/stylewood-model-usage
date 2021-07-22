@@ -20,7 +20,7 @@ In this repository, you will find the code used for training and using the model
 
 ## System requirements
 
-* CentOS Linux 7. Not tested in Windows.
+* CentOS Linux 7. **Not tested in Windows.
 * 64-bit Python 3.7 installation.
 * TensorFlow 1.14 with GPU support.
 * One or more high-end NVIDIA GPUs with at least 11GB of DRAM. We recommend NVIDIA RTX 2080 Ti GPU.
@@ -33,13 +33,14 @@ __[step 1.] Prepare dataset__
 
 __[step 2.] Config__:
 
-1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Line 37
+1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Change **Line 37
 2. Edit [train.py](./train.py) lines 40-43 with the number of GPUS that will be used for training. By default, 4 GPUS will be used. 
 
 __[step 3.] Training__:
 
 1. Run [train.py](./train.py) as '''python train.py'''. 
 
+* **Bear in mind that StyleGAN is extremely computational expensive.
 * Visualization of training progress can be done by TensorBoard. 
 * Within the results folder, a new directory will be created with training information.
 * Training is expected to last days (maybe weeks) depending on computational power. 
