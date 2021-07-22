@@ -44,7 +44,12 @@ __[step 3.] Training__:
 * Within the results folder, a new directory will be created with training information.
 * Training is expected to last days (maybe weeks) depending on computational power. 
 
+## Don't want to train it, but want to use it?
+
+See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing)
+
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
+
 
 ## Credits and Rerences
 For the paper, we trained StyleGAN to generate synthetic microscopic cross sections of hardwood species. 
