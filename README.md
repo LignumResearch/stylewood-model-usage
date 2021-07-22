@@ -34,7 +34,7 @@ __[step 1.] Prepare dataset__
 __[step 2.] Config__:
 
 1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Line 37
-2. Edit [train.py](./train.py) line XX with the number of GPUS that will be used for training. By default, 4 GPUS will be used. 
+2. Edit [train.py](./train.py) lines 40-43 with the number of GPUS that will be used for training. By default, 4 GPUS will be used. 
 
 __[step 3.] Training__:
 
