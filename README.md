@@ -14,13 +14,13 @@ In this repository, you will find the code used for training and using the model
 - **dnnlib/**: StyleGAN related.
 - **images/**: Images produced for this repository (used in Readme).
 - **metrics/**: Contains FID score calculation
-- **results/**: Contains model snapshot selected to exibit.
+- **results/**: Contains model's trained snapshot at 7446 kimg selected to show implementation.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
 - **videos/**: Videos produced for this repository.
 
 ## System requirements
 
-* Both Linux and Windows are supported, but we strongly recommend Linux for performance and compatibility reasons.
+* CentOS Linux 7. Not tested in Windows.
 * 64-bit Python 3.7 installation.
 * TensorFlow 1.14 with GPU support.
 * One or more high-end NVIDIA GPUs with at least 11GB of DRAM. We recommend NVIDIA RTX 2080 Ti GPU.
