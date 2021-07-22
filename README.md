@@ -41,6 +41,7 @@ __[step 3.] Training__:
 1. Run [train.py](./train.py) as '''python train.py'''. 
 
 * Visualization of training progress can be done by TensorBoard. 
+* Within the results folder, a new directory will be created with training information.
 * Training is expected to last days (maybe weeks) depending on computational power. 
 
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
