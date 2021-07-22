@@ -33,7 +33,7 @@ __[step 1.] Prepare dataset__
 
 __[step 2.] Config__:
 
-1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. 
+1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Line 37
 
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
