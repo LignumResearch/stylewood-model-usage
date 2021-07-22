@@ -12,7 +12,7 @@ In this repository, you will find the code used for training and using the model
 
 - **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing) .
 - **dnnlib/**: StyleGAN related.
-- **images/**: Images produced for this repository (used in read me).
+- **images/**: Images produced for this repository (used in Readme).
 - **metrics/**: Contains FID score calculation
 - **results/**: Contains model snapshot selected to exibit.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
