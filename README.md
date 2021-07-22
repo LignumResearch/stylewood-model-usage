@@ -53,7 +53,7 @@ See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3
 
 
 ## Credits and Rerences
-For the paper, we trained StyleGAN to generate synthetic microscopic cross sections of hardwood species. 
+For the paper, we trained StyleGAN to generate synthetic images and used XDD microscopic cross sections of hardwood species dataset. 
 
 - A Style-Based Generator Architecture for Generative Adversarial Networks. Tero Karras (NVIDIA), Samuli Laine (NVIDIA), Timo Aila (NVIDIA). [https://arxiv.org/abs/1812.04948](https://arxiv.org/abs/1812.04948). [StyleGAN — Official TensorFlow Implementation](https://github.com/NVlabs/stylegan).
 
