@@ -38,7 +38,7 @@ __[step 2.] Config__:
 
 __[step 3.] Training__:
 
-1. Run [train.py](./train.py) as '''python train.py'''. 
+1. Run [train.py](./train.py) as ```python train.py```. 
 
 * **Bear in mind that StyleGAN is extremely computational expensive.
 * Visualization of training progress can be done by TensorBoard. 
