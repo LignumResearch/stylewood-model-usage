@@ -13,7 +13,7 @@ In this repository, you will find the code used for training and using the model
 - **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing) .
 - **dnnlib/**: StyleGAN related.
 - **images/**: Images produced for this repository (used in read me).
-- **metrics/**: 
+- **metrics/**: Contains FID score calculation
 - **results/**: Contains model snapshot selected to exibit.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
 - **videos/**: Videos produced for this repository.
@@ -34,6 +34,14 @@ __[step 1.] Prepare dataset__
 __[step 2.] Config__:
 
 1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Line 37
+2. Edit [train.py](./train.py) line XX with the number of GPUS that will be used for training. By default, 4 GPUS will be used. 
+
+__[step 3.] Training__:
+
+1. Run [train.py](./train.py) as '''python train.py'''. 
+
+* Visualization of training progress can be done by TensorBoard. 
+* Training is expected to last days (maybe weeks) depending on computational power. 
 
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
