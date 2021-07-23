@@ -16,7 +16,6 @@ In this repository, you will find the code used for training and using the model
 - **metrics/**: Contains FID score calculation
 - **results/**: Contains model's trained snapshot at 7446 kimg selected to show implementation.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
-- **videos/**: Videos produced for this repository.
 
 ## System requirements
 
