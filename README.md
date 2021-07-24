@@ -52,7 +52,7 @@ __[step 4.] Image generation__:
 
 ## Don't want to train it, but want to use it?
 
-See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be to generate image transitions as the below. 
+See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be able to generate image transitions as the below. 
 
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
