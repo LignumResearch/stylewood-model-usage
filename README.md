@@ -4,13 +4,11 @@ These species don't exist. StyleGAN generated microscopic cross-section images o
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/mosaic.png?raw=true" alt="Mosaic of randomly generated images using our model." width="830"/>
 
 
-This repository was created to provide the original implementation for the paper under review  "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**" 
-
-
+This repository was created to provide the original implementation for the paper under review  "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**".
 
 In this repository, you will find the code used for training and using the model. Here is a basic summary of the directories found in this repository:
 
-- **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing) .
+- **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab.](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing)
 - **dnnlib/**: StyleGAN related.
 - **images/**: Images produced for this repository (used in Readme).
 - **metrics/**: Contains FID score calculation
@@ -39,7 +37,7 @@ __[step 3.] Training__:
 
 1. Run [train.py](./train.py) as ```python train.py```. 
 
-* **Bear in mind that StyleGAN is extremely computational expensive.
+* Bear in mind that StyleGAN is computationally expensive to train and use.
 * Visualization of training progress can be done by TensorBoard. 
 * Within the results folder, a new directory will be created with training information.
 * Training is expected to last days (maybe weeks) depending on computational power. 
@@ -54,7 +52,32 @@ __[step 4.] Image generation__:
 
 See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be to generate image transitions as the below. 
 
+We also prepared a playlist containing video tutorials explaining how to use the Google Collab notebook and the web application. [See the playlist on youtube.](https://youtube.com/playlist?list=PLx56vSb2wN6blKRc7OzvxKjwn-i1Sl8oJ). 
+
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
+
+You can choose to run the web application locally as well, but you will need to install the pre-requisites. 
+
+Here's what we used to run the web application on a Windows Machine:
+- Python (We used 3.7).
+    - Comes with Anaconda.
+- `[Anaconda](https://www.anaconda.com/products/individual#Downloads) (Optional but useful). Open the Anaconda CLI and type
+    - `conda create --name stylewood python=3.7`
+    - `activate stylewood` (Run this every time you need to re-open the CLI)
+- cudatoolkit 
+    - `conda install cudatoolkit`
+        - Requires adding Anaconda Enviroment library bins to path on Windows otherwise missing DLL error may happen
+        - The path should be available from the Anaconda Install: Anaconda/envs/envname/Library/bin
+        - [See how to add a directory to path on Windows.](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14))
+    - Can also be [downloaded from NVidia.](https://developer.nvidia.com/cuda-toolkit)
+- Tensorflow with GPU support. We used 1.14 
+    - `pip install tensorflow-gpu==1.14`
+    - 2.0 or greater isn't compatible with StyleGan
+- Streamlit. We used v0.82
+    - `pip install streamlit==0.82`
+- After installing the packages, run the streamlit application.
+    - Go to the directory that contains the Collab files `cd C:/user/directory/collab`
+    - `streamlit run webapp.py`
 
 
 ## Credits and Rerences
