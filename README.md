@@ -50,7 +50,7 @@ __[step 4.] Image generation__:
 
 ## Don't want to train it, but want to use it?
 
-See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be to generate image transitions as the below. 
+See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be able to generate image transitions as the below. 
 
 We also prepared a playlist containing video tutorials explaining how to use the Google Collab notebook and the web application. [See the playlist on youtube.](https://youtube.com/playlist?list=PLx56vSb2wN6blKRc7OzvxKjwn-i1Sl8oJ). 
 
@@ -81,11 +81,11 @@ Here's what we used to run the web application on a Windows Machine:
 
 
 ## Credits and Rerences
-For the paper, we trained StyleGAN to generate synthetic images and used XDD microscopic cross sections of hardwood species dataset. 
+For the paper, we trained StyleGAN to generate synthetic images. 
 
 - A Style-Based Generator Architecture for Generative Adversarial Networks. Tero Karras (NVIDIA), Samuli Laine (NVIDIA), Timo Aila (NVIDIA). [https://arxiv.org/abs/1812.04948](https://arxiv.org/abs/1812.04948). [StyleGAN — Official TensorFlow Implementation](https://github.com/NVlabs/stylegan).
 
-To train StyleGAN, we used a dataset containing identified microscopic cross-sectional images of hardwoods species by the XDD research team.
+To train StyleGAN, we used a dataset containing identified microscopic cross-section images of hardwoods species by the XDD research team.
 
 - SUGIYAMA, Junji, HWANG, Sung Wook, ZHAI, ShengCheng, KOBAYASHI, Kayoko, KANAI, Izumi, KANAI, Keiko. [Xylarium Digital Database for Wood Information Science and Education](http://hdl.handle.net/2433/250016).
 
