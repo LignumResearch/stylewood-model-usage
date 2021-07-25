@@ -61,13 +61,13 @@ You can choose to run the web application locally as well, but you will need to 
 Here's what we used to run the web application on a Windows Machine:
 - Python (We used 3.7).
     - Comes with Anaconda.
-- `[Anaconda](https://www.anaconda.com/products/individual#Downloads) (Optional but useful). Open the Anaconda CLI and type
+- [Anaconda](https://www.anaconda.com/products/individual#Downloads) (Optional but useful). Open the Anaconda CLI and type
     - `conda create --name stylewood python=3.7`
     - `activate stylewood` (Run this every time you need to re-open the CLI)
 - cudatoolkit 
     - `conda install cudatoolkit`
         - Requires adding Anaconda Enviroment library bins to path on Windows otherwise missing DLL error may happen
-        - The path should be available from the Anaconda Install: Anaconda/envs/envname/Library/bin
+        - The path should be available from the Anaconda Install: `Anaconda/envs/envname/Library/bin`
         - [See how to add a directory to path on Windows.](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14))
     - Can also be [downloaded from NVidia.](https://developer.nvidia.com/cuda-toolkit)
 - Tensorflow with GPU support. We used 1.14 
