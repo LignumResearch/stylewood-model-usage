@@ -8,6 +8,7 @@ This repository was created to provide the original implementation for the paper
 
 In this repository, you will find the code used for training. Here is a basic summary of the directories in this repository:
 
+- **Support/**: Supporting files regaring Visual Turing Test analysis.
 - **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab.](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing)
 - **dnnlib/**: StyleGAN related.
 - **images/**: Images produced for this repository (used in Readme).
