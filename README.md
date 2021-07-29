@@ -6,7 +6,7 @@ These species don't exist. StyleGAN generated microscopic cross-section images o
 
 This repository was created to provide the original implementation for the paper under review  "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**".
 
-In this repository, you will find the code used for training and using the model. Here is a basic summary of the directories found in this repository:
+In this repository, you will find the code used for training. Here is a basic summary of the directories in this repository:
 
 - **collab/**: Contains notebook, generator and code for web application. [See and use the notebook on Collab.](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing)
 - **dnnlib/**: StyleGAN related.
@@ -17,7 +17,7 @@ In this repository, you will find the code used for training and using the model
 
 ## System requirements
 
-* CentOS Linux 7. **Not tested in Windows.
+* CentOS Linux 7. **Not tested in Windows**.
 * 64-bit Python 3.7 installation.
 * TensorFlow 1.14 with GPU support.
 * One or more high-end NVIDIA GPUs with at least 11GB of DRAM. We recommend NVIDIA RTX 2080 Ti GPU.
@@ -30,7 +30,7 @@ __[step 1.] Prepare dataset__
 
 __[step 2.] Config__:
 
-1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Change **Line 37
+1. Edit [train.py](./train.py) with the path of the unzipped file from step 1. Change **Line 37**.
 2. Edit [train.py](./train.py) lines 40-43 with the number of GPUS that will be used for training. By default, 4 GPUS will be used. 
 
 __[step 3.] Training__:
@@ -52,9 +52,10 @@ __[step 4.] Image generation__:
 
 See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3gTYVzwlYEgANfd8Uh7vFkc?usp=sharing). In the collab you will be able to generate image transitions as the below. 
 
+<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
+
 We also prepared a playlist containing video tutorials explaining how to use the Google Collab notebook and the web application. [See the playlist on youtube.](https://youtube.com/playlist?list=PLx56vSb2wN6blKRc7OzvxKjwn-i1Sl8oJ). 
 
-<img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
 You can choose to run the web application locally as well, but you will need to install the pre-requisites. 
 
