@@ -54,7 +54,7 @@ See our google Collab [here](https://colab.research.google.com/drive/1U0NU7CLlW3
 
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/transition.gif?raw=true" alt="Transition using our generator." width="512">
 
-We also prepared a playlist containing video tutorials explaining how to use the Google Collab notebook and the web application. [See the playlist on youtube.](https://youtube.com/playlist?list=PLx56vSb2wN6blKRc7OzvxKjwn-i1Sl8oJ). 
+We also prepared a playlist containing video tutorials explaining how to use the Google Collab notebook and the web application. [See the playlist on youtube.](https://youtube.com/playlist?list=PLx56vSb2wN6blKRc7OzvxKjwn-i1Sl8oJ)
 
 
 You can choose to run the web application locally as well, but you will need to install the pre-requisites. 
