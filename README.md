@@ -16,7 +16,7 @@ In this repository, you will find the code used for training. Here is a basic su
 - **results/**: Contains model's trained snapshot at 7446 kimg selected to show implementation.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
 
-Due to limited resources using Git Large File Storage, the `.pkl` files may not be available when cloning this repository, and a place-holder file may be used instead. To download a copy of the files, click [here](https://drive.google.com/file/d/1K-kaWfQuJsUKUsvQrDmA6EbdrXRuWMJC/view?usp=sharing). This .zip contains two files. The `image_generation.pkl` file should be pasted to the directory `./stylewood-model-usage/collab/results/`. The `network-snapshot-007446.pkl` file should be pasted to the directory `./stylewood-model-usage/results/00000-sgan-dataset-4gpu`.
+Due to limited resources using Git Large File Storage, the `.pkl` files are not available when cloning this repository, and a place-holder file is used instead. To download a copy of the files, click [here](https://drive.google.com/file/d/1K-kaWfQuJsUKUsvQrDmA6EbdrXRuWMJC/view?usp=sharing). This .zip contains two files. The `image_generation.pkl` file should be pasted to the directory `./stylewood-model-usage/collab/results/`. The `network-snapshot-007446.pkl` file should be pasted to the directory `./stylewood-model-usage/results/00000-sgan-dataset-4gpu`.
 
 ## System requirements
 
