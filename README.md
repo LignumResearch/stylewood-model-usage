@@ -16,6 +16,8 @@ In this repository, you will find the code used for training. Here is a basic su
 - **results/**: Contains model's trained snapshot at 7446 kimg selected to show implementation.
 - **training/**: StyleGAN related. Adjusted to use cross-sectional images of hardwoods species.
 
+Due to limited resources, the large .PKL files may not be available to download directly from the repository. To download a copy of the repository with the files, click [here](https://drive.google.com/file/d/15jJfIUlFp5YlmVEzTFCH4g05xJNOllFZ/view?usp=sharing).
+
 ## System requirements
 
 * CentOS Linux 7. **Not tested in Windows**.
