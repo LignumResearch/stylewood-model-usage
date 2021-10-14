@@ -3,11 +3,11 @@ import streamlit as st
 def app():
     st.title("About Us")
 
-    st.write("This web application was created to enable users to experiment with the model created in the paper entitled ... (removed for blind peer review process) by ... (removed for blind peer review process)")
+    st.write("This web application was created to enable users to experiment with the model created in the paper entitled Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks, written by Dercilio Junior Verly Lopes, Gustavo Fardin Monti, Greg W. Burgreen, Jordão Cabral Moulin, Gabrielly dos Santos Bobadilha, Edward D. Entsminger and Ramon Ferreira Oliveira.")
 
     st.markdown(
         """
-        The full paper can be found at: [link text](https://). 
+        The full paper can be found at: [https://www.frontiersin.org/article/10.3389/fpls.2021.760139](https://www.frontiersin.org/article/10.3389/fpls.2021.760139). 
 
         The Github Repository containing the model and the code for this project can be found at: [https://github.com/LignumResearch/stylewood-model-usage](https://github.com/LignumResearch/stylewood-model-usage).
         """
