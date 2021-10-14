@@ -4,7 +4,7 @@ These species don't exist. StyleGAN generated microscopic cross-section images o
 <img src="https://github.com/LignumResearch/stylewood-model-usage/blob/main/images/mosaic.png?raw=true" alt="Mosaic of randomly generated images using our model." width="830"/>
 
 
-This repository was created to provide the original implementation for the paper: "**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**".
+This repository was created to provide the original implementation for the paper ["**Creating high-resolution microscopic cross-section images of hardwood species using generative adversarial networks**"](https://www.frontiersin.org/article/10.3389/fpls.2021.760139), written by Dercilio Junior Verly Lopes, Gustavo Fardin Monti, Greg W. Burgreen, Jordão Cabral Moulin, Gabrielly dos Santos Bobadilha, Edward D. Entsminger and Ramon Ferreira Oliveira1.
 
 In this repository, you will find the code used for training. Here is a basic summary of the directories in this repository:
 
