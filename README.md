@@ -84,7 +84,7 @@ Here's what we used to run the web application on a Windows Machine:
     - `streamlit run webapp.py`
 
 
-## Credits and Refences
+## Credits and References
 For the paper, we trained StyleGAN to generate synthetic images. We have included a copy of the license from the original StyleGAN repository.
 
 - A Style-Based Generator Architecture for Generative Adversarial Networks. Tero Karras (NVIDIA), Samuli Laine (NVIDIA), Timo Aila (NVIDIA). [https://arxiv.org/abs/1812.04948](https://arxiv.org/abs/1812.04948). [StyleGAN — Official TensorFlow Implementation](https://github.com/NVlabs/stylegan).
